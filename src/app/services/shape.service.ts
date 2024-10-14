@@ -16,6 +16,10 @@ export class ShapeService {
     return this.http.get<Shape[]>(this.path);
   }
 
+  getById(id: string) {
+    return this.http.get<Shape>(this.path + `/${id}`);
+  }
+
   postAddress(address: CreateAddress) {
     return this.http.post<null>(this.dotnetPath + '/addresses', address);
   }

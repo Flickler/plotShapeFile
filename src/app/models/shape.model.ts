@@ -1,4 +1,5 @@
 export interface Shape {
+  id: string;
   type: string;
   properties: properties;
   geometry: Geometry;

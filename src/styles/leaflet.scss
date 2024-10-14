@@ -7,4 +7,20 @@
   stroke: #000;
   stroke-width: 1;
   fill: #fff;
+  outline: none;
+}
+
+.leaflet-shape-tooltip {
+  background-color: #000 !important;
+  border: none !important;
+
+  h2 {
+    color: #fff;
+    font-size: 0.825rem;
+    font-weight: 400;
+  }
+
+  strong {
+    font-weight: 600;
+  }
 }
