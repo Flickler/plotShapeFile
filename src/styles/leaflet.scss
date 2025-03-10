@@ -10,8 +10,30 @@
   outline: none;
 }
 
+.leaflet_risk_area_layer {
+  stroke: #f00;
+  stroke-width: 1;
+  fill: #f00;
+  outline: none;
+}
+
 .leaflet-shape-tooltip {
   background-color: #000 !important;
+  border: none !important;
+
+  h2 {
+    color: #fff;
+    font-size: 0.825rem;
+    font-weight: 400;
+  }
+
+  strong {
+    font-weight: 600;
+  }
+}
+
+.leaflet-risk-area-tooltip {
+  background-color: #f00 !important;
   border: none !important;
 
   h2 {

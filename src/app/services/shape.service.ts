@@ -9,7 +9,7 @@ import { CreateAddress, CreateShape, Shape } from '@models/shape.model';
 })
 export class ShapeService {
   private readonly http = inject(HttpClient);
-  private readonly path = environment.apiUrl + '/shapes';
+  private readonly path = environment.shapeApiUrl;
   private readonly dotnetPath = environment.dotnetApiUrl;
 
   getShapes() {
